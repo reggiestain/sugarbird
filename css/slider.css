@@ -1,0 +1,135 @@
+.cycle-slideshow {
+	width: 100%;
+	max-width: 640px;
+	display: block;
+	position: relative;
+	margin: 0 auto 30px;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.caption {
+	width: 100%;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	padding: 0 .2em 1em;
+	z-index: 9999;
+	box-sizing: border-box;
+	background: rgba(88, 85, 87, 0.4);
+}
+
+.caption h3 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1em;
+	letter-spacing:	.1em;
+	margin: 0.4em 1em 0 0;
+	text-shadow: 2px 2px 8px #191511;
+}
+
+.caption p {
+	color: #fff;
+	font-size: .9em;
+	text-shadow: 2px 2px 8px #191511;
+}
+
+
+.cycle-next {
+	width: 0;
+	height: 0;
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 30%; 
+	border-left: 25px solid rgba(255, 255, 255, .8);
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	z-index: 99999;
+	cursor: pointer;
+}
+
+.cycle-prev {
+	width: 0;
+	height: 0;
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 30%; 
+	border-right: 25px solid rgba(255, 255, 255, .8);
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	z-index: 99999;
+	cursor: pointer;
+}
+
+.cycle-pager {
+	text-indent: -9999999px;
+	width: 50%;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	z-index: 99999;
+	color: #fff;
+	margin: 0;
+	cursor: pointer;
+}
+
+.cycle-pager span {
+	width: 10px;
+	height: 10px;
+	float: left;
+	background: rgba(255, 255, 255, .2);
+	margin: 2px;
+	border-radius: 5px;
+	border: 2px solid #fff;
+}
+
+.cycle-pager .cycle-pager-active {
+	background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
