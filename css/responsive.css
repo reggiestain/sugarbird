@@ -45,6 +45,8 @@
 		height: 250px;
 	}
 	
+	
+	
 	/*______Gallery Layout_____*/
 	.imageGallery li{
 		width: 28.333333%;
@@ -53,11 +55,6 @@
 	.imageGallery li p{
 		font-weight: 600;
 	}
-	
- }
-
-
-@media screen and (min-width: 1024px) {
 	
 	.is-sticky #stickyHeader {
 		display: inline-block;
@@ -77,6 +74,7 @@
 	}
 	
 	.is-sticky .clearfix #stickyHeader h2 {
+		display: none;
 		position: fixed;
 		left: 280px;
 		top: 28px;
@@ -85,7 +83,7 @@
 	}
 	
 	
-	
+
 	
 
 	/*______Nav Bar_____*/
@@ -95,16 +93,17 @@
 	}
 		
 	.clearfix ul li a {
-		padding: 31px 10px;
+		padding: 31px 0;
 	}
 	
-	
+	.subNav ul li a {
+		padding: 10px 0;
+	}
 	
 	
 	/*______Nav Bar is Sticky_____*/	
 	.is-sticky .clearfix ul {
 		float: right;
-		top: 0;
 	}
 	
 	.is-sticky .clearfix ul li a{
@@ -112,9 +111,25 @@
 		background-color: #585557;
 		max-height: 89px;
 	}
-	
-	
 
+	.is-sticky .subNav ul{
+		float: none;
+	}
+
+
+	
+ }
+
+
+@media screen and (min-width: 1024px) {
+	
+	.subNav ul li{
+		width: 24%;
+	}
+	
+	.is-sticky .clearfix #stickyHeader h2 {
+		display: block;
+	}
 
 
 	/*______Gallery Layout_____*/

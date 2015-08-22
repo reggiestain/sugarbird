@@ -161,48 +161,16 @@ h4 {
 
 /*_________Nav__________*/
 
-
-
-
-
-
-
 .hideSubNav {
 	display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #stickyHeader{
 	display: none;
 }
 
 nav {
-	z-index: 999;
+	z-index: 999999;
 	font-size: 1.2em;
 	text-align: center;
 }
@@ -219,7 +187,6 @@ nav ul li {
 }
 
 nav ul li a {
-	z-index: 999999999;
 	display: block;
 	color: #585557;
 	font-weight: 800;
@@ -232,27 +199,30 @@ nav ul li a {
 
 
 .subNav {
-	z-index: 999999999;
+	z-index: 999999;
 	position: relative;
 	float: right;
-	display: inline-block;
+	display: block;
 	border-top: 3px solid #fff;
 	border-bottom: 3px solid #fff;
 	width: 100%;
 }
 
+.subNav ul {
+	background-color: #585557;
+}
 
-
-.subNav li{
+.subNav ul li{
 	width: 100%;
 }
 
-.subNav li a {	
+.subNav ul li a {	
+	text-align: center;
 	color: #fff;
 	background: #585557;
 	width: 100%;
 	margin: 0;
-	padding: 5px 0;
+	padding: 10px;
 }
 
 
@@ -291,6 +261,14 @@ nav ul li a:hover,
 	transition: 1s;
 	background-color: #585557;
 	color: #fff;
+}
+
+.subNav ul li a.selected,
+.subNav ul li a:hover
+{
+	transition: 1s;
+	background-color: #fff;
+	color: #585557;
 }
 
 

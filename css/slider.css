@@ -19,7 +19,7 @@
 	position: absolute;
 	bottom: 0;
 	padding: 0 .2em 1em;
-	z-index: 9999;
+	z-index: 99;
 	box-sizing: border-box;
 	background: rgba(88, 85, 87, 0.4);
 }
@@ -50,7 +50,7 @@
 	border-left: 25px solid rgba(255, 255, 255, .8);
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	z-index: 99999;
+	z-index: 999;
 	cursor: pointer;
 }
 
@@ -64,7 +64,7 @@
 	border-right: 25px solid rgba(255, 255, 255, .8);
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	z-index: 99999;
+	z-index: 999;
 	cursor: pointer;
 }
 
@@ -74,7 +74,7 @@
 	text-align: center;
 	position: relative;
 	bottom: 0;
-	z-index: 99999;
+	z-index: 9999;
 	color: #fff;
 	margin: 0;
 	cursor: pointer;
