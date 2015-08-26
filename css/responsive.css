@@ -29,24 +29,6 @@
 
  @media screen and (min-width: 768px) {
 	
-	#primary  {
-		padding: 0 2em;
-		width: 40%;
-		float: left;
-	}
-	
-	#secondary {
-		padding: 0 2em;
-		width: 40%;
-		float: right;
-	}
-	
-	#container {
-		height: 250px;
-	}
-	
-	
-	
 	/*______Gallery Layout_____*/
 	.imageGallery li{
 		width: 28.333333%;
@@ -83,9 +65,7 @@
 	}
 	
 	
-
 	
-
 	/*______Nav Bar_____*/
 	.clearfix {
 		display: inline-block;
@@ -123,6 +103,22 @@
 
 @media screen and (min-width: 1024px) {
 	
+	#primary  {
+		padding: 0 2em;
+		width: 40%;
+		float: left;
+	}
+	
+	#secondary {
+		padding: 0 2em;
+		width: 40%;
+		float: right;
+	}
+	
+	#container {
+		height: 590px;
+	}
+	
 	.subNav ul li{
 		width: 24%;
 	}
@@ -156,8 +152,4 @@
 	.containerDiv {
 		margin: 0 auto 50px;
 	}  
-	
-	
-	
-	
 }
